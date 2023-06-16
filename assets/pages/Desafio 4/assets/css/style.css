@@ -1,0 +1,57 @@
+/* *{
+    border: solid aqua;
+} */
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+article {
+    width: 410px;
+    height: auto;
+}
+
+.navbar-collapse{
+    justify-content: end;
+}
+
+.card-text {
+  font-size: 15px;
+}
+
+.card-price {
+    color: #555;
+    font-size: 16px;
+  }
+
+  .card-price-old {
+    text-decoration: line-through;
+  }
+
+  .card-price-new {
+    color: green;
+    font-size: 20px;
+  }
+
+  section h3 {
+    color: white;
+  }
+
+  .btn {
+    background-color: silver;
+    color: black;
+  }
+
+  footer img{    
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+
+  footer p {
+    color: #808080;
+  }
+
+
+
+  

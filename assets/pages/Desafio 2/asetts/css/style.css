@@ -1,0 +1,99 @@
+html{
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+.header {
+    margin: 0;
+    padding: 5rem;
+    font-size: 2rem;
+    height: 20rem;
+    background-image: url(../imgs/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.title {
+    margin:5rem 0rem 0rem 5rem;
+    width: 30%;
+    color: #ffffff;
+    position: relative;
+    text-shadow: 1px 1px 0 #0000008c, 2px 2px 0 #bbb, 3px 3px 0 #aaa, 4px 4px 0 #888; /* Sombras del texto*/
+    cursor: pointer;
+}
+
+.title::after { /*Efecto para despues del contenido*/
+    content: ''; /* Content es el contenido que se agregara despues del contenido del elemento, en este caso en '' vacio por que ocupare solo las lineas del borde*/
+    position:absolute;
+    left: 0;
+    bottom: -0.5rem;
+    width: 98%;
+    height: 0.5rem;
+    background: #ffffff;
+    border-radius: 1rem;
+    transform-origin: right;
+    transform: scaleX(0); /* Animacion de forma horizontal*/
+    transition: transform 1s;
+}
+
+.title:hover::after { /* Animacion que se ejecutara al pasar el mouse por encima*/
+    transform-origin: left;
+    transform: scaleX(1);
+    box-shadow: 0.2rem 0.2rem 0.2rem #aaa;
+}
+
+.header p {
+    color: #ffffff;
+    margin: 1rem 0rem 0rem 5rem;
+    padding: 0;
+    font-style: italic;
+    width: 32%;
+    text-shadow: 1px 1px 0 #0000008c, 2px 2px 0 #bbb, 3px 3px 0 #aaa, 4px 4px 0 #888; 
+}
+
+.products {
+    width: 80%;
+    margin: 5% 10% 5% 10%;
+    padding: 1rem;
+}
+
+.products td {
+    width: 50%;
+    padding: 1rem;
+}
+
+.products img{
+    width: 100%;
+    border: solid 0.3rem #ddd;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.products img:hover {
+    box-shadow: 0.5rem 0.3rem 1rem rgba(255, 255, 255, 0.5);
+}
+
+.products p {
+    width: auto;
+    padding: 0.5rem;
+}
+
+.descriptions {
+    text-align: center;
+    color: white;
+    border:0.2rem solid rgb(255, 255, 255);
+    border-radius: 0.5rem;
+    cursor: pointer;
+ }
+
+.descriptions:hover{
+    box-shadow: 0.5rem 0.3rem 1rem rgba(255, 255, 255, 0.5); 
+}
+
+.footer {
+    color: white;
+    height: 1.5rem;
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    line-height: 1.5rem;
+}

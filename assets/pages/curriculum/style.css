@@ -1,0 +1,167 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #13131331;
+ }
+
+header{
+    width: 80rem;
+    transition: box-shadow 0.3s ease;
+    margin: 1rem 10rem;
+    background-color: rgba(1, 56, 73, 0.7);
+    color: white;
+    padding: 1rem 3rem 0rem 3rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+header:hover{
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+header h1{
+    font-size: 3rem;
+}
+
+header p{
+    font-size: 1.2rem;
+}
+
+.containerpadre{
+    margin: 1rem 3rem 1rem 3rem;
+    position: relative;
+
+}
+.informacion{
+    width: 30rem;
+    position: absolute;
+    top: 1rem;
+    transition: box-shadow 0.3s ease;
+    background-color: rgba(202, 156, 6, 0.5);
+    margin: 1rem 7rem;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.informacion:hover{
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+.informacion h2{
+    text-align: center;
+}
+
+.informacion p{
+    text-align: justify;
+    padding: 0rem 3rem;
+}
+
+.informacion ul{
+    text-align: justify;
+    padding: 0rem 6rem;
+}
+
+img {
+    margin: 0rem 7rem;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+}
+
+#telefono {
+    list-style-image: url(img/telefono.png) 
+}
+
+#correo {
+    list-style-image: url(img/email.png) 
+}
+
+#ubicacion {
+    list-style-image: url(img/ubicacion.png) 
+}
+
+#linkedin {
+    list-style-image: url(img/linkedin.png) 
+}
+
+table {
+    width: 30rem;
+    text-align: center;
+}
+
+table, td {
+    border:0.2rem solid black;
+    padding: 0.4rem;
+
+}
+
+td:hover {
+    background-color: blanchedalmond;
+    cursor: pointer;
+}
+
+.container{
+    transition: box-shadow 0.3s ease;
+    background-color: rgb(255, 255, 255);
+    max-width: 42rem;
+    padding: 1rem 1rem 0rem 5rem;
+    border-radius: 0.5rem;
+    margin: 1rem 10rem;
+    position: relative;
+    top: 0rem;
+    left: 35rem;
+    cursor: pointer;
+}
+
+.container:hover{
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+
+.container article {
+    text-align: justify;
+    padding: 0rem 5rem 2rem 0rem;
+}
+
+.experiencia{
+    padding: 0rem 15rem 0rem 0rem;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    margin: 0rem;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+#comienzo{
+    margin-right: 40rem;
+}
+footer section{
+    float: right;
+}
+
+footer p{
+    margin: 0rem;
+}
+
+footer a{
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: cornflowerblue;
+}
+
+
+
+
+
+          
