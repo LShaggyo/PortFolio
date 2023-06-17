@@ -1,0 +1,65 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.nav {
+  color: #888;
+  text-shadow: 1px 1px 0 #ffffffc0;
+}
+
+header {
+  background-color: rgba(0, 33, 93, 0.851);
+}
+
+/* Hero Section */
+
+#Hero-Section {
+  background-image: url("../img/bg-carlos.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+header h1{
+  text-shadow: 3px 3px 0 #000000b2;
+}
+
+header p {
+  background-color: #ffffff5f;
+  padding: 1rem;
+  text-shadow: 2px 2px 0 #000000b2;
+  font-size: 25px;
+  border-radius: 0.5rem;
+  margin: 1;
+  text-align: justify;
+}
+header p:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px 2px #888;
+}
+/* Mis trabajos */
+
+#Mis-trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+}
